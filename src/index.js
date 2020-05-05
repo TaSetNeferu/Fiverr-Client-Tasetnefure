@@ -25,7 +25,7 @@ const wa = require('../helper-functions/whatsapp-send-message');
 const gs = require('../helper-functions/google-sheet');
 
 const LANGUAGE = 'es';
-const LONG_MSG = `Últimamente ando bastante liado preparando el lanzamiento, grabando vídeos, contestando comentarios, etc. Pero he sacado un ratillo para hablar contigo. Cuéntame : ¿a qué te dedicas y cuál es el motivo real por el que te has apuntado a mi seminario del día 11 de mayo?`;
+const LONG_MSG = process.env.LONG_MSG;
 
 const TIME_INTERVAL = process.env.TIME_INTERVAL;
 
